@@ -1,0 +1,96 @@
+:root{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.player, .computer{
+    width: 50%;
+    height: 400px;
+}
+
+h1, h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3.2rem;
+}
+
+.choice{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 161px;
+    height: 158px;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    margin: 0 25px 25px ;
+}
+
+button:hover{
+    box-shadow: 0px 0px 30px gray;
+}
+
+#rock{
+    background-image: url('./Images/Rock.png');
+}
+
+#paper{
+    background-image: url('./Images/Paper.png');
+}
+
+#scissors{
+    background-image: url('./Images/Scissors.png');
+}
+
+img{
+    margin: 0 25px 25px ;
+}
+
+.result{
+    width: 100vw;
+}
+
+.btn-play{
+    width: 250px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    background: brown;
+    color: white;
+    position: relative;
+}
